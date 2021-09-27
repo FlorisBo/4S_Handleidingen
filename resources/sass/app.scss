@@ -30,3 +30,54 @@
     color: #ccc;
     content: "/\00a0";
 }
+
+/* author css */
+
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+  }
+  
+.col-md-8{
+    margin: auto;
+}
+
+.brand-container{
+display: flex;
+width: 100%;
+background-color: #e9ecef;
+margin-bottom: 2rem;
+border-radius: 0.25rem;
+}
+
+
+.links{
+margin: 10px;
+text-align: center;
+}
+
+.btn-download{
+color: black;
+background-color: #3490dc;
+padding: 4px;
+border: #1d68a7 1px solid;
+border-radius: 0.3rem;
+}
+
+.btn-download:hover{
+background-color: #1d68a7;
+color: white;
+text-decoration: none;
+}
+
+ul{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+

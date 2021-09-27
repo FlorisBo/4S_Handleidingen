@@ -10,11 +10,11 @@
 
 <p>{{ __('introduction_texts.type_list', ['brand'=>$brand->name]) }}</p>
 
-    <div class="container">
+    <div class="container container-flex">
 		<ul>
 		@foreach($types as $type)
 			<li>
-				<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
+				<a class="flex-items" href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
 			</li>
 		@endforeach
 		</ul>

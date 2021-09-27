@@ -5,6 +5,7 @@
   <a href="#" class="link">Social links</a>
   <div class="copyright">
   	© {{ __('misc.copyright') }}
+    {{ __('misc.Author_name') }}
   </div>
 </footer>
 
@@ -25,7 +26,7 @@
 <!-- Einde analytics code -->
 
 <script language="Javascript" type="text/javascript"> 
- <!-- 
+ <!--
  if (top.location!= self.location) { 
   top.location = self.location.href
  } 
