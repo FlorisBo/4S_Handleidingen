@@ -5,7 +5,9 @@
   <a href="#" class="link">Social links</a>
   <div class="copyright">
   	© {{ __('misc.copyright') }}
-    {{ __('misc.Author_name') }}
+    <p class="Author">
+      {{ __('misc.Author_name') }}
+    </p>
   </div>
 </footer>
 
