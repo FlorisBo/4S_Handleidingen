@@ -1,12 +1,16 @@
 
 <footer>
-  <a href="#" class="link">Over Ons</a>
-  <a href="#" class="link">Contact gegevens</a>
-  <a href="#" class="link">Social links</a>
-  <div class="copyright">
-  	© {{ __('misc.copyright') }}
+  <div class="grid-footer"> 
+    <div class="copyright">
+      © {{ __('misc.copyright') }}
+    </div>
+    <div class="socials">
+      <a href="#" class="link">Over Ons</a>
+      <a href="#" class="link">Contact gegevens</a>
+      <a href="#" class="link">Social links</a>
+    </div>
     <p class="Author">
-      {{ __('misc.Author_name') }}
+        {{ __('misc.Author_name') }}
     </p>
   </div>
 </footer>
